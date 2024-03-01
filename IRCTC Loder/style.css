@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.red{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    aspect-ratio: 1;
+    /* background-color: red; */
+    background: conic-gradient(
+                red 0deg 90deg,
+                transparent 90deg 360deg
+            );
+    border-radius:50%;
+    /* clip-path: polygon(50% 50%, 100% 0%, 100% 100%); */
+    animation: rotateRed 2.5s linear infinite;
+            /* background-color: inherit; */
+            /* transform-origin: 100% 100%; */
+            /* transform: rotate(45deg); */
+}
+
+.white1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius:50%;
+}
+
+
+.green{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:80px;
+    aspect-ratio: 1;
+    background-color: green;
+    background: conic-gradient(
+                green 0deg 90deg,
+                transparent 90deg 360deg
+            );
+    border-radius:50%;
+    animation: rotateGreen 2s linear infinite;
+    /* clip-path: polygon(50% 50%, 100% 0%, 100% 100%); */
+}
+
+.white2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius:50%;
+}
+
+
+.blue{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    aspect-ratio: 1;
+    border-radius:50%;
+    animation: rotateBlue 2s linear infinite;
+    background: conic-gradient(
+                blue 0deg 90deg,
+                transparent 90deg 360deg
+            );
+    /* clip-path: polygon(50% 50%, 100% 0%, 100% 100%); */
+}
+
+
+.white3{
+    width:50px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius:50%;
+}
+
+
+
+@keyframes rotateRed {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateGreen {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateBlue {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
