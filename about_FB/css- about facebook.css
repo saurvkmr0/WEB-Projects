@@ -1,0 +1,216 @@
+p.logo{
+color:red;}
+
+
+.theBar{
+background:-webkit-linear-gradient(left, rgb(112,166,30) 41%, rgb(150,222,42) 71%);    
+-webkit-animation-name:theBar;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+
+-webkit-text-fill-color:transparent;
+-webkit-animation-iteration-count:infinite;
+}
+
+.box1{
+padding:0% 0% 0% 5.5%;
+float:left;
+width:23.625%;
+height:390px;
+background-color:#F7F7F7;
+}
+
+.box2{
+float:left;
+width:23.625%;
+background-color:#F7F7F7;
+height:390px;
+}
+
+.box3{
+float:left;
+width:23.625%;
+background-color:#F7F7F7;
+height:390px;
+}
+
+.box4{
+float:left;
+width:23.55%;
+padding:0% 0% 0% 0%;
+background-color:#F7F7F7;
+height:390px;
+}
+
+
+.imgc1n2
+{float:left;
+transition: transform  .2s;
+}
+.imgc1:hover{
+transform: scale(1.01);
+}
+
+.imgc3:hover{
+transform: scale(1.01);
+}
+
+.imgc2
+{float:left;
+transition: transform  .2s;
+}
+.imgc2:hover{
+transform: scale(1.01);
+}
+
+.imgc6
+{position:absolute;
+right:75px;
+transition: transform  .2s;
+}
+.imgc6:hover{
+transform: scale(1.01);
+}
+
+.imgc7
+{position:absolute;
+right:75px;
+transition: transform  .2s;
+}
+.imgc7:hover{
+transform: scale(1.01);
+}
+
+.imgc5{
+position: relative;
+left:75px;
+transition: transform  .2s;
+}
+.imgc5:hover{
+transform: scale(1.01);
+}
+
+
+span.n1:hover{
+opacity:80%;}
+
+span.n2:hover{
+opacity:80%;
+}
+span.n3:hover{
+opacity:80%;}
+
+span.n4:hover{
+opacity:80%;}
+
+span.n5:hover{
+opacity:80%;}
+
+.colorfullfb{
+padding: 160px;
+text-align:center;}
+
+
+#smh-facebook{
+	
+transition:transform .2s;}
+
+#smh-facebook:hover{
+transform: scale(1.5);
+background:-webkit-linear-gradient(left , #4267B2 , blue 90%);  
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+}
+
+
+#smh-instagram{
+	
+transition:transform .2s;}
+
+#smh-instagram:hover{
+transform: scale(1.5);
+background:-webkit-linear-gradient(top, orange, red);  
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+}
+
+#smh-twitter{
+	
+transition:transform .2s;}
+
+#smh-twitter:hover{
+transform: scale(1.5);
+background:-webkit-linear-gradient(top, #00acee, skyblue);  
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+}
+
+#smh-youtube{
+	
+transition:transform .2s;}
+
+#smh-youtube:hover{
+transform: scale(1.5);
+background:-webkit-linear-gradient(top, red, red);  
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+}
+
+#smh-linkedin{
+	
+transition:transform .2s;}
+
+#smh-linkedin:hover{
+transform: scale(1.5);
+background:-webkit-linear-gradient(top, #0e76a8, #0e76a8);  
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+}
+
+
+.header{padding:9px;
+background-repeat:no-repeat;
+background-size:100%;
+text-decoration:none;
+-webkit-animation-name:bg-transition;
+-webkit-animation-duration:2s;
+-webkit-animation-delay:0ms;
+-webkit-animation-timing-function:linear;
+-webkit-animation-fill-mode:forwards;
+
+/* the-fill-mode-forwards syntax is use to stop animation at its end position*/
+}
+@keyframes bg-transition{
+
+0%{background-color:#FCE9C1;}
+50%{background-color:#C98F4C;}
+100%{background-image:url("img4.jpg");}
+}
+
+
+p.rainbow{
+background:-webkit-linear-gradient(left, rgb(112,166,30) 41%, rgb(150,222,42) 71%);    
+-webkit-animation-name:rainbow;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+-webkit-animation-iteration-count:infinite;
+}
+
+
+/*   (bottom, rgb(112,166,30) 41%, rgb(150,222,42) 71%);  */
+@keyframes rainbow{
+from{filter:hue-rotate(0deg);}
+to{filter:hue-rotate(360deg);}
+}
+
+@keyframes theBar{
+from{filter:hue-rotate(0deg);}
+to{filter:hue-rotate(360deg);}
+}
